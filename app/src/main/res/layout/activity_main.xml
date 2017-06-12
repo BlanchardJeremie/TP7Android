@@ -16,8 +16,8 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="28dp"
         android:layout_marginStart="28dp"
-        android:text="1"
         android:onClick="bouton1"
+        android:text="2"
 
         />
 
@@ -37,13 +37,13 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="91dp"
-        android:text="1+1 = ?"
-        android:textSize="30sp"
-        android:textStyle="bold"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="91dp"
         android:layout_toLeftOf="@+id/button2"
-        android:layout_toStartOf="@+id/button2" />
+        android:layout_toStartOf="@+id/button2"
+        android:text="1 + 1 = ?"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

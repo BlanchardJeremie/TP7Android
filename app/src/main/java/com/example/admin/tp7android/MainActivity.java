@@ -31,7 +31,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void bouton1(View view) {
         Log.d("Bouton","bouton 1");
-        Intent intent = new Intent(MainActivity.this,Activity_page3.class);
+        Intent intent = new Intent(MainActivity.this,Activity_page2.class);
+        intent.putExtra("param", "Je viens du bouton n°1 !");
+        startActivity(intent);
+    }
+    public void bouton2(View view) {
+        Log.d("Bouton","bouton 1");
+        Intent intent = new Intent(MainActivity.this,Activity_page2.class);
         intent.putExtra("param", "Je viens du bouton n°1 !");
         startActivity(intent);
     }
