@@ -12,12 +12,14 @@ public class VraisFaux {
     private String question1;
     private String question2;
     private boolean reponse;
+    private  boolean reponse2;
 
-    public VraisFaux(String question, String question1, String question2, boolean reponse) {
+    public VraisFaux(String question, String question1, String question2, boolean reponse1 , boolean reponse2) {
         setQuestion(question);
         setQuestion1(question1);
         setQuestion2(question2);
-        setReponse(reponse);
+        setReponse1(reponse1);
+        setReponse2(reponse2);
     }
 
     public Boolean getReponse() {
@@ -52,12 +54,19 @@ public class VraisFaux {
         this.question2 = question2;
     }
 
-    public boolean isReponse() {
+    public boolean isReponse1() {
         return reponse;
     }
 
-    public void setReponse(boolean reponse) {
+    public void setReponse1(boolean reponse) {
         this.reponse = reponse;
+    }
+    public boolean isReponse2() {
+        return reponse2;
+    }
+
+    public void setReponse2(boolean reponse2) {
+        this.reponse2 = reponse2;
     }
 }
 
